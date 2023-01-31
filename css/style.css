@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    height: 100vh;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    font-style: italic;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
