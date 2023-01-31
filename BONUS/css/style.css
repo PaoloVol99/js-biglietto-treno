@@ -48,7 +48,7 @@
     grid-area: header;
     align-self: center;
     justify-self: center;
-    color: rgb(68, 68, 68);
+    color: rgb(125, 125, 125);
     /* border-bottom: 1px solid rgb(208, 208, 208); */
 }
 
@@ -96,4 +96,8 @@
     grid-area: main;
     padding: 20px 0;
     gap: 10px;
+}
+
+.grey-text {
+    color: rgb(125, 125, 125);
 }

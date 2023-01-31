@@ -36,7 +36,7 @@ if (age < 18) {
 } else {
     console.log(noDiscountPrice)
     document.getElementById("price").innerHTML = "€ " + noDiscountPrice
-    document.getElementById("discount").innerHTML = "NO"
+    document.getElementById("discount").innerHTML = "TE LO SCORDI"
     document.getElementById("discount").style.color = "red"
     document.getElementById("startingPrice").style.color = "green"
 }
